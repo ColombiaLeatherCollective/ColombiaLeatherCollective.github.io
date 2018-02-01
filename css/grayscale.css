@@ -226,15 +226,24 @@ a:focus, a:hover {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
-  border: 2px solid white;
-  border-radius: 0;
-  background-color: #42DCA3;
+  /* border: 2px solid white; */
+  border-radius: 8%;
+  background-color: black;
 }
 
 .box:focus, .box:hover {
   color: white;
   outline: none;
   background: rgba(255, 255, 255, 0.4);
+}
+
+.test-img {
+    border-radius: 50%;
+    background-color: yellow;
+    width:300px;
+    height:300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .btn-default {
