@@ -228,6 +228,7 @@ a:focus, a:hover {
   text-transform: uppercase;
   border: 2px solid white;
   border-radius: 0;
+  background-color: #42DCA3;
 }
 
 .box:focus, .box:hover {
